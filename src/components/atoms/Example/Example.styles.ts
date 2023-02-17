@@ -1,4 +1,3 @@
-import styled from 'styled-components';
+import { styled } from '@styles/theme';
 
-// change div to be more semantic where possible
-export const Wrapper = styled.div``;
+export const Wrapper = styled('div', {});

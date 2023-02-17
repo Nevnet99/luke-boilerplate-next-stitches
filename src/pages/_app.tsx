@@ -1,12 +1,11 @@
-import StyleProvider from '@contexts/StyleProvider';
-import GlobalStyles from '@styles/globalStyles';
+import { globalStyles } from '@styles/globalStyles';
 import type { AppProps } from 'next/app';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <StyleProvider>
-      <GlobalStyles />
+    <>
+      {globalStyles()}
       <Component {...pageProps} />
-    </StyleProvider>
+    </>
   );
 }

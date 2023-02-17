@@ -1,4 +1,4 @@
-import StyleProvider from "@contexts/StyleProvider";
+import globalStyles from '@styles/globalStyles';
 import React from "react";
 
 export const parameters = {
@@ -55,10 +55,9 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <div style={{ position: "relative" }}>
-        <StyleProvider isStory>
-          <Story />
-        </StyleProvider>
-    </div>
-  ),
+      <div style={{ position: "relative" }}>
+        {globalStyles()}
+        <Story />
+      </div>
+    )
 ];
