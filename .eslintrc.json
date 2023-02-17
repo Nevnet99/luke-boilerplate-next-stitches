@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "wesbos/typescript",
+    "plugin:mdx/recommended"
+  ],
+  "rules": {
+    "arrow-body-style": [2, "as-needed"]
+  }
+}
+

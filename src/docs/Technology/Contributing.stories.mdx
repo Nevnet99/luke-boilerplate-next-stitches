@@ -1,0 +1,54 @@
+import { Meta, Story } from "@storybook/addon-docs";
+
+<Meta title="Technology/4. Contributing" />
+
+<Story name="default">
+  <h1>Contributing</h1>
+  <hr />
+  <h2>Branches</h2>
+  <br />
+  <h3>main</h3>
+  <p>
+    The main branch is used for production and is protected. All other branches
+    are used for development and are not protected.
+  </p>
+  <h3>development</h3>
+  <p>
+    The development branch is used for development. Expect this branch to be
+    unstable and occasionally broken.
+  </p>
+  <h3>staging</h3>
+  <p>
+    The staging branch is used for staging. An environment to test the
+    deployment before going to production.
+  </p>
+  <h3>Creating a custom branch for work</h3>
+  <p>
+    When creating a custom branch for work, please use the following naming
+    convention:
+    <br />
+    <br />
+    feature: feat-TICKET-123/feature-name
+    <br />
+    fix: fix-TICKET-123/bug-name
+    <br />
+    chore: chore-TICKET-123/chore-name
+  </p>
+  <h2>Commit messages</h2>
+  <p>
+    When committing, please use the following naming convention:
+    <br />
+    <br />
+    feat: feature name
+    <br />
+    fix: bug name
+    <br />
+    chore: chore name
+  </p>
+  <br />
+  <br />
+  <p>
+    When merging back into main please if there are multiple commits squish them
+    :)
+  </p>
+</Story>
