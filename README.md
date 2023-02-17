@@ -23,7 +23,7 @@
 To use this repo as a template for your own project you can click the "Use this template" button at the top of the repo. or you can follow the steps below:
 
 ```
-  yarn create next-app [project-name] -e https://github.com/Nevnet99/luke-boilerplate-next
+  yarn create next-app [project-name] -e https://github.com/Nevnet99/luke-boilerplate-next-stitches
 ```
 
 <!-- PROJECT LOGO -->
